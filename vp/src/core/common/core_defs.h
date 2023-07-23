@@ -12,9 +12,9 @@ enum class CoreExecStatus {
 	Terminated,
 };
 
-constexpr unsigned SATP_MODE_BARE = 0;
-constexpr unsigned SATP_MODE_SV32 = 1;
-constexpr unsigned SATP_MODE_SV39 = 8;
-constexpr unsigned SATP_MODE_SV48 = 9;
-constexpr unsigned SATP_MODE_SV57 = 10;
-constexpr unsigned SATP_MODE_SV64 = 11;
+#define SATP_MODE_BARE 0
+#define SATP_MODE_SV32 1
+#define SATP_MODE_SV39 8
+#define SATP_MODE_SV48 9
+#define SATP_MODE_SV57 10
+#define SATP_MODE_SV64 11
