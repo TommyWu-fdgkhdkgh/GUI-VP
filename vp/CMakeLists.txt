@@ -31,6 +31,9 @@ else()
 	find_library(SystemC_LIBRARIES libsystemc.a)
 endif()
 
+find_package( Spike REQUIRED)
+include_directories( ${Spike_INCLUDE_DIRS})
+
 find_package( SoftFloat REQUIRED )
 include_directories( ${SoftFloat_INCLUDE_DIRS} )
 
