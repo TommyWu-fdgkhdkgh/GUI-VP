@@ -59,7 +59,7 @@ DECLARE_ENUM(Operator,
 	RMW,
 	RMW_END,
 	NOP
-);
+)
 
 }
 

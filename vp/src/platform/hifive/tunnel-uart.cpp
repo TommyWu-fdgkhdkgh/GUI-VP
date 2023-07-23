@@ -6,7 +6,7 @@ Tunnel_UART::Tunnel_UART(sc_core::sc_module_name name, uint32_t irqsrc) : UART_I
 {
 	stop = false;
 	rx_worker = std::thread(std::bind(&Tunnel_UART::rx_dequeue, this));
-};
+}
 
 Tunnel_UART::~Tunnel_UART(){
 	stop = true;

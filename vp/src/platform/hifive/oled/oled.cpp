@@ -101,11 +101,11 @@ SS1106::SS1106(std::function<bool()> getDCPin, ss1106::State* state_memory_overr
 		state = state_memory_override;
 	}
 	memset(state, 0, sizeof(State));
-};
+}
 SS1106::~SS1106(){
 	if (sharedSegment && shmdt(sharedSegment))
 		perror("shmdt");
-};
+}
 
 
 uint8_t SS1106::write(uint8_t byte)

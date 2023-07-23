@@ -581,7 +581,7 @@ constexpr unsigned MHPMEVENT28_ADDR = 0x33C;
 constexpr unsigned MHPMEVENT29_ADDR = 0x33D;
 constexpr unsigned MHPMEVENT30_ADDR = 0x33E;
 constexpr unsigned MHPMEVENT31_ADDR = 0x33F;
-};  // namespace csr
+} // namespace csr
 
 struct csr_table {
 	csr_64 cycle;

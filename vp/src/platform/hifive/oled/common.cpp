@@ -13,7 +13,7 @@
 namespace ss1106
 {
 
-IMPL_ENUM(Operator);
+IMPL_ENUM(Operator)
 
 State* getSharedState()
 {
@@ -46,6 +46,6 @@ State* getSharedState()
 }
 
 
-};
+}
 
 
